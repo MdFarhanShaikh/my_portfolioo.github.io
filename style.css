@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #0077b6;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background: #023e8a;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  margin: 10px;
+}
+
+.card {
+  display: inline-block;
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Dark Mode */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark nav {
+  background: black;
+}
+
+.dark .card {
+  background: #1e1e1e;
+}
