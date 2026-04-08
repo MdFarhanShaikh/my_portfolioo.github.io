@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <button id="toggle">🌙</button>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#projects">Projects</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <img src="images/profile.jpg">
+  <h2>Hello! I'm a Student</h2>
+  <p>Aspiring developer passionate about technology and innovation.</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p><b>Education:</b> Your College Name</p>
+  <p><b>Interests:</b> Web Development, AI, Design</p>
+  <p><b>Goals:</b> Become a Software Engineer</p>
+  <p><b>Strengths:</b> Problem-solving, creativity, teamwork</p>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <h2>Achievements & Certificates</h2>
+
+  <div class="card">
+    <img src="images/coursera.jpg">
+    <p>Coursera Certification - Web Development</p>
+  </div>
+
+  <div class="card">
+    <img src="images/netacad.jpg">
+    <p>Cisco NetAcad Certification</p>
+  </div>
+
+  <div class="card">
+    <img src="images/yuva.jpg">
+    <p>Yuva AI Certification</p>
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <img src="images/ai4a.png">
+    <h3>AI4A Project</h3>
+    <p>AI-based solution project.</p>
+  </div>
+
+  <div class="card">
+    <img src="images/design-thinking.png">
+    <h3>Design Thinking</h3>
+    <p>Problem-solving design project.</p>
+  </div>
+
+  <div class="card">
+    <img src="images/ace.png">
+    <h3>ACE Project</h3>
+    <p>Applied coding experience project.</p>
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <h2>Gallery</h2>
+  <img src="images/gallery1.jpg">
+  <img src="images/gallery2.jpg">
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+  <p>Phone: 1234567890</p>
+  <p>LinkedIn: linkedin.com/in/yourname</p>
+  <p>GitHub: github.com/yourname</p>
+</section>
+
+<footer>
+  <p>© 2026 Your Name</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
